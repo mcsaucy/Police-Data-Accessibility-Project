@@ -32,6 +32,7 @@ def _firefox_profile(download_dir):
     ffx_profile.set_preference('browser.helperApps.alwaysAsk.force', False)
     # Disable animation
     ffx_profile.set_preference('browser.download.manager.showWhenStarting', False)
+    return ffx_profile
 
 
 def main():
