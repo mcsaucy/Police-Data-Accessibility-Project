@@ -14,6 +14,8 @@ from captcha.CaptchaSolver import CaptchaSolver
 import utils.ScraperUtils as ScraperUtils
 from utils.ScraperUtils import Record, Charge
 
+print("this is a test")
+
 settings = {
     'portal-home': 'https://court.baycoclerk.com/BenchmarkWeb2/Home.aspx/Search',
     'state-code': 'FL',
